@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- MAIN DARK BACKGROUND -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#020817"
+                android:centerColor="#061438"
+                android:endColor="#10052A" />
+        </shape>
+    </item>
+
+    <!-- TOP BLUE GLOW -->
+    <item
+        android:left="-120dp"
+        android:top="-180dp"
+        android:right="180dp"
+        android:bottom="500dp">
+
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="500dp"
+                android:startColor="#183DFF"
+                android:centerColor="#071B55"
+                android:endColor="#00000000" />
+        </shape>
+
+    </item>
+
+    <!-- TOP RIGHT PURPLE GLOW -->
+    <item
+        android:left="220dp"
+        android:top="-150dp"
+        android:right="-150dp"
+        android:bottom="450dp">
+
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="450dp"
+                android:startColor="#4725FF"
+                android:centerColor="#15104B"
+                android:endColor="#00000000" />
+        </shape>
+
+    </item>
+
+    <!-- BOTTOM BLUE GLOW -->
+    <item
+        android:left="100dp"
+        android:top="650dp"
+        android:right="100dp"
+        android:bottom="-250dp">
+
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="450dp"
+                android:startColor="#162EFF"
+                android:centerColor="#0A1240"
+                android:endColor="#00000000" />
+        </shape>
+
+    </item>
+
+</layer-list>

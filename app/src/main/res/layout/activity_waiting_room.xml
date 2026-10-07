@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODE: ------"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for players..."
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txtPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Players"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="START GAME 🚀"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

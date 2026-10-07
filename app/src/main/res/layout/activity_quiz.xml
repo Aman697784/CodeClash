@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#100D14"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtQuestionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUESTION 1 / 15"
+            android:textColor="#BFA7FF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txtTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnOption1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOption2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option B"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOption3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option C"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOption4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option D"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textColor="#BFA7FF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

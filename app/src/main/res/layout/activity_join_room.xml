@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚪 JOIN ROOM"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 6-digit room code to join"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtRoomCode"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Room Code"
+        android:gravity="center"
+        android:maxLength="6"
+        android:textAllCaps="true"
+        android:inputType="textCapCharacters"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Join Room"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

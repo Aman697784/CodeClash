@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#100D14">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆 GAME RESULT"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtResultMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great Game!"
+        android:textColor="#BFA7FF"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/txtFinalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtXP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+0 XP"
+        android:textColor="#00E676"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="🎮 Play Again"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="🏠 Home"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Main dark background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0B1020" />
+        </shape>
+    </item>
+
+    <!-- Coding bubble 1 -->
+    <item
+        android:left="20dp"
+        android:top="80dp">
+        <shape android:shape="oval">
+            <solid android:color="#16213A" />
+        </shape>
+    </item>
+
+    <!-- Coding bubble 2 -->
+    <item
+        android:right="20dp"
+        android:top="180dp">
+        <shape android:shape="oval">
+            <solid android:color="#121B32" />
+        </shape>
+    </item>
+
+    <!-- Coding bubble 3 -->
+    <item
+        android:left="40dp"
+        android:bottom="100dp">
+        <shape android:shape="oval">
+            <solid android:color="#17243D" />
+        </shape>
+    </item>
+
+</layer-list>
